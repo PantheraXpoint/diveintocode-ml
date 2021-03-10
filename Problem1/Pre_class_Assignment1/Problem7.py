@@ -9,11 +9,11 @@ for i in range(1,44):
     list.append(folded_thickness)
 
 
-plt.tick_params(labelsize=20)
+plt.tick_params(labelsize=20) # This will increase the letter size of label in the graph.
 plt.title("thickness of folded paper")
 plt.xlabel("number of folds")
 plt.ylabel("thickness[m]")
 
-plt.plot(list, color='red')
+plt.plot(list, color='red') # This will change the color of the graph
 
 plt.show()
